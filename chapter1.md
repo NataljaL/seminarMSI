@@ -45,7 +45,7 @@ ggplot(movies, aes(x = runtime, y = rating, col = genre)) + geom_point()
 
 msg_bad <- "That is not correct!"
 msg_success <- "Exactly! There seems to be a very bad action movie in the dataset."
-test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
+test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad, msg_bad))
 ```
 
 ---
@@ -128,4 +128,46 @@ test_function("plot", args = "col")
 test_error()
 
 success_msg("Good work!")
+```
+
+
+
+
+---
+## Uus harjutus
+
+```yaml
+type: NormalExercise
+key: b844159904
+lang: r
+xp: 100
+skills: 1
+```
+Mingi teks
+
+`@instructions`
+* Tee seda
+* tee toda
+* Tee veel midagi
+
+`@hint`
+ * Vihjet polegi
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+1+2
+```
+
+`@solution`
+```{r}
+1+2
+```
+
+`@sct`
+```{r}
+
 ```
